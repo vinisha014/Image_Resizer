@@ -1,14 +1,15 @@
-ImgToPDF — Complete AWS Deployment Guide
-React → Docker → ECR → ECS Fargate → ALB
+# ImgToPDF — Complete AWS Deployment Guide
+# React → Docker → ECR → ECS Fargate → ALB
 
 Prerequisites — Install These First
-ToolInstall Command / LinkNode.js 18+https://nodejs.orgDockerhttps://docs.docker.com/get-docker/AWS CLI v2https://aws.amazon.com/cli/Githttps://git-scm.com
+Tool Install Command / LinkNode.js 18+ - https://nodejs.org
+Docker - https://docs.docker.com/get-docker/AWS CLI v2https://aws.amazon.com/cli/Githttps://git-scm.com
 Configure AWS CLI:
 bashaws configure
-# Enter: AWS Access Key ID
-# Enter: AWS Secret Access Key
-# Enter: Default region (e.g., us-east-1)
-# Enter: Default output format (json)
+Enter: AWS Access Key ID
+Enter: AWS Secret Access Key
+Enter: Default region (e.g., us-east-1)
+Enter: Default output format (json)
 
 # Verify it works:
 aws sts get-caller-identity
